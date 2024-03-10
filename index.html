@@ -27,6 +27,7 @@
       
       .navbar-nav .nav-link {
           color: #fff;
+          font-weight: bold;
       }
 
       .navbar-nav .nav-link:hover {
@@ -48,8 +49,9 @@
       
       .bg{
         background-repeat: no-repeat;
-		background-image: url(https://cdn.looka.com/assets-db/industry_photos/security/offering-3.jpg);
-      background-size: cover;
+		    background-image: url(https://cdn.looka.com/assets-db/industry_photos/security/offering-3.jpg);
+        background-size: cover;
+        height: 85vh;
     
 			
       }
@@ -63,6 +65,29 @@
     .feature-item h4 {
       color: #007bff;
     }
+
+    .sec2 .card{
+      height: 15rem !important;
+      
+      overflow: hidden;
+      background-color: #f8f9fa;
+
+      border: none;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+    }
+
+    .card:hover {
+            transform: translateY(-5px);
+        }
+
+    .feature {
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            background-color: #f8f9fa;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
   </style>
   </head>
   <body>
@@ -71,7 +96,7 @@
       <nav class="navbar navbar-expand-lg navbar-dark sticky-top p-4 " style="background-color: black;">
         <div class="container-fluid "> <div  >
             <a   href="#">
-                <img src="https://s3.ca-central-1.amazonaws.com/logojoy/logos/174326362/noBgColor.png" style="width: 15rem;" alt="" class="img-fluid ">
+                <img src="https://s3.ca-central-1.amazonaws.com/logojoy/logos/174326362/noBgColor.png" style="width: 17rem;" alt="" class="img-fluid ">
             </a></div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -103,39 +128,157 @@
             </div>
         </div>
     </nav>
-    <div class="container-fluid bg text-center " style="height: 37rem;">
- <div class="h-25"></div>
-      <div class="p-5">
-    <h1 class=" display-2 font-weight-bold" style="color: #fff; "> 
-      Free AI-Powered Security Software for Public Schools</h1>
-    </h1>
-    <button class="btn btn-primary btn-lg btn-block">Enroll your school</button>
-                   
+    <div class="container-fluid bg text-center ">
+ 
+  <div class="row h-100">
+    <div class="col-md-2"></div>
+    <div class="col-md-8 d-flex flex-column justify-content-center" style="height: 100%!important;">
+      <div class="p-5 ">
+        <h1 class=" display-2 font-weight-bold" style="color: #fff; "> 
+          Free AI-Powered Security Software for Public Schools</h1>
+        </h1>
+        
+        <button class="btn btn-primary btn-lg btn-block mt-2">Enroll your school</button>
+                       
+      </div>
+    </div>
   </div>
     </div>
     <div class="container mt-5">
     <div class="container">
       
-      <p class="lead">There were 656 mass shootings in the US last year. 1682 innocent children were killed, and 4512 were injured. We’re on a mission to stop the next school mass shooting and that’s why we’ve created Silent Guardian - the only FREE software that can be added to cameras in public schools.</p>
-      <p class="lead">According to Homeland Security, it takes 4-11 minutes for a 911 call to be processed and first responders dispatched, and 4-18 minutes for a first responder to arrive on scene at an emergency. According to the FBI, 60% of active shooter events end before police arrive.</p>
-      <p class="lead">Our technology is tailored to the unique environment of schools, watching for potential threats 24/7 and immediately alerting authorities to a range of potential threats in real time.</p>
-      <p class="lead">We turn a simple video feed like this: Into this: And once the danger level reaches a certain threshold - we send the alerts to the authorities.</p>
-      <h2 class="mt-md-5">Examples of what Silent Guardian can identify:</h2>
+      <div class="row sec2" >
+        <div class="col-md-3">
+          <div class="card border-0 shadow-sm mb-4">
+
+            <div class="card-body">
+              <p class="card-text">There were 656 mass shootings in the US last year. 1682 innocent children were killed, and 4512 were injured. We’re on a mission to stop the next school mass shooting and that’s why we’ve created Silent Guardian - the only FREE software that can be added to cameras in public schools.</p>
+            </div>
+         
+          </div>
+        </div>
+
+        <div class="col-md-3">
+
+          <div class="card border-0 shadow-sm mb-4">
+            <div class="card-body">
+              <p class="card-text">According to Homeland Security, it takes 4-11 minutes for a 911 call to be processed and first responders dispatched, and 4-18 minutes for a first responder to arrive on scene at an emergency. According to the FBI, 60% of active shooter events end before police arrive.</p>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card border-0 shadow-sm mb-4">
+            <div class="card-body">
+            <p class="card-text">Our technology is tailored to the unique environment of schools, watching for potential threats 24/7 and immediately alerting authorities to a range of potential threats in real time.</p>
+
+          </div></div>
+        </div>
+
+
+        <div class="col-md-3">
+          <div class="card border-0 shadow-sm mb-4">
+            <div class="card-body">
+              <p class="card-text">We turn a simple video feed like this: Into this: And once the danger level reaches a certain threshold - we send the alerts to the authorities.</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="container mt-5">
+        <h2 class="text-center mb-4">Examples of Identified Threats</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h3 class="card-title">Visible Weapons</h3>
+                        <p class="card-text">Persons carrying visible weapons, such as guns or knives, can be identified by Silent Guardian.</p>
+                    </div>
+                </div>
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h3 class="card-title">Body Armor</h3>
+                        <p class="card-text">Silent Guardian can detect individuals wearing body armor, enhancing security measures.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h3 class="card-title">Face Coverings</h3>
+                        <p class="card-text">People wearing ski masks or other face coverings that obscure identity can be identified by Silent Guardian.</p>
+                    </div>
+                </div>
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h3 class="card-title">Confrontational Behavior</h3>
+                        <p class="card-text">Signs of confrontation, including physical fights or loud, aggressive voices, can be detected by Silent Guardian.</p>
+                    </div>
+                </div>
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h3 class="card-title">Gunshots Detection</h3>
+                        <p class="card-text">The distinct sound of gunshots can be identified by Silent Guardian, enabling rapid response even if the incident is out of camera view.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+      <!-- <h2 class="mt-md-5 display-5">Examples of what Silent Guardian can identify:</h2>
       <ul class="list-group">
           <li class="list-group-item">Persons carrying visible weapons, such as guns or knives</li>
           <li class="list-group-item">Individuals wearing body armor</li>
           <li class="list-group-item">People wearing ski masks or other face coverings that obscure identity</li>
           <li class="list-group-item">Signs of confrontation, including physical fights or loud, aggressive voices</li>
           <li class="list-group-item">The distinct sound of gunshots, allowing for rapid response even if the incident is out of camera view</li>
-      </ul>
-      <h2 class="mt-md-5 ">Key Features</h2>
+      </ul> -->
+      <!-- <h2 class="mt-md-5 ">Key Features</h2>
       <ul class="feature-list ">
           <li>Real-Time Alerts: Instant notification to school authorities and local law enforcement, enabling immediate intervention.</li>
           <li>Customizable Threat Parameters: Adapt the system to address specific security concerns, ensuring comprehensive protection.</li>
           <li>Advanced Audio-Visual Analysis: Combines visual detection with sophisticated audio sensors to identify threats accurately.</li>
           <li>Seamless Integration: Works with existing camera infrastructure (VMS), making implementation straightforward and cost-effective.</li>
           <li>Privacy-First Approach: Rigorously designed to respect the privacy of students and staff while focusing on threat detection.</li>
-      </ul>
+      </ul> -->
+
+      <div class="container">
+        <h2 class="mt-5 mb-4">Key Features</h2>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="feature">
+                    <h3>Real-Time Alerts</h3>
+                    <p>Instant notification to school authorities and local law enforcement, enabling immediate intervention.</p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="feature">
+                    <h3>Customizable Threat Parameters</h3>
+                    <p>Adapt the system to address specific security concerns, ensuring comprehensive protection.</p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="feature">
+                    <h3>Advanced Audio-Visual Analysis</h3>
+                    <p>Combines visual detection with sophisticated audio sensors to identify threats accurately.</p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="feature">
+                    <h3>Seamless Integration</h3>
+                    <p>Works with existing camera infrastructure (VMS), making implementation straightforward and cost-effective.</p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="feature">
+                    <h3>Privacy-First Approach</h3>
+                    <p>Rigorously designed to respect the privacy of students and staff while focusing on threat detection.</p>
+                </div>
+            </div>
+        </div>
+    </div>
   </div>
   <div class="mt-5"></div>
   </div>
