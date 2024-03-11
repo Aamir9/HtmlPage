@@ -1,0 +1,73 @@
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar-brand img {
+   
+    width: 100% !important;
+}
+
+
+.navbar-nav .nav-link {
+    color: #fff;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffc107;
+}
+
+
+.btn-primary {
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+.btn-primary:hover {
+    background-color: #e0a800;
+    border-color: #e0a800;
+}
+
+
+
+.bg{
+  background-repeat: no-repeat;
+      background-image: url(https://cdn.looka.com/assets-db/industry_photos/security/offering-3.jpg);
+  background-size: cover;
+  height: 85vh;
+
+      
+}
+ /* Add custom styles here */
+.feature-item {
+padding: 20px;
+border: 1px solid #ccc;
+border-radius: 5px;
+margin-bottom: 20px;
+}
+.feature-item h4 {
+color: #007bff;
+}
+
+.sec2 .card{
+height: 15rem !important;
+
+overflow: hidden;
+background-color: #f8f9fa;
+
+border: none;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease;
+}
+
+.card:hover {
+      transform: translateY(-5px);
+  }
+
+.feature {
+      padding: 20px;
+      margin-bottom: 30px;
+      border-radius: 10px;
+      background-color: #f8f9fa;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
